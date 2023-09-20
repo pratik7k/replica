@@ -1,0 +1,181 @@
+.model{
+    font-size: 8px;
+    font-weight: lighter;
+    text-align: center;
+}
+.border{
+    background-color: azure;
+}
+.sidebar{
+    width: 200px;
+    height: 690px;
+    background-color: black;
+    transition: all 5s linear 2s;
+}
+*{
+    background-color: lightgrey;
+ }
+.logo{
+    color: white;
+    text-align: center;
+    background-color: black;
+}
+.cr2{
+    color: white;
+    text-align: left;
+    padding: 1pc;
+    background-color: black;
+}
+.cr3{
+    color: black;
+    padding: 1pc;
+    background-color: grey;
+}
+.cr4{
+    color: white;
+    padding: 1pc;
+    background-color: black;
+}
+.cr5{
+    color: azure;
+    text-align: justify;
+    padding: 1pc;
+    background-color: black;
+}
+.cr6{
+    color: azure;
+    text-align: left;
+    padding: 1pc;
+    background-color: black;
+}
+.cr7{
+    color: azure;
+    text-align: left;
+    padding: 1pc;
+    background-color: black;
+}
+.cr8{
+    color: azure;
+    text-align: left;
+    padding: 1pc;
+    background-color: black;
+}
+.border{
+        border-top-style: solid;
+        border-width: 1px;
+        color: white;
+        border-radius: 999px;
+    }
+    .border{
+        border-right: solid;
+        color: white;
+        border-radius: 999px;
+    }
+    .model{
+        background-color: grey;
+        font-weight: normal;
+        text-align: center;
+    }
+    .pop{
+        color: beige;
+        width: 350px;
+        height: 200px;
+        background-color: darkorchid;
+        border-radius: 10%;
+        padding: 1%;
+    }
+    .cr0{
+        color: beige;
+        width: 200px;
+        height: 200px;
+        background-color: skyblue;
+        position: relative; left: 210px;
+    }
+
+    .container {
+        width: 100%;
+        display: flex;
+        flex-flow: column;
+    }
+    .container .banner {
+        display: flex;
+        flex-flow: column;
+        gap: 20px;
+    }
+    .container .banner .banner-container {
+        font-size: larger;
+        display: flex;
+        flex-flow: row;
+        gap: 25px;
+    }
+
+    .main {
+        display: flex;
+        flex-flow: row;
+    }
+    .cr10 {
+        color: beige;
+        width: 350px;
+        height: 200px;
+        background-color: orange;
+    }
+    .searchbar {
+        background-color: white;
+        padding: 5px;
+        display: flex;
+        flex-flow: row;
+        justify-content: start;
+        align-items: center;
+        gap: 10px;
+        border: 1px solid black;
+        border-radius: 50px;
+        width: 50%;
+    }
+    input {
+        background-color: transparent;
+        border: none;
+        outline: none;
+        width: 100%;
+    }
+    img {
+        background-color: transparent;
+    }
+    .header {
+        display: flex;
+        flex-flow: row;
+    }
+    .header button {
+        border-radius: 50%;
+        background-color: transparent;
+        border: none;
+        outline: none;
+    }
+    [class *= "cr"] {
+        display: flex;
+        flex-flow: row;
+        gap: 15px;
+    }
+    .cr11{
+        color: beige;
+        width: 200px;
+        height: 200px;
+        background-color: lightgreen;
+    }
+    .cr12 {
+        color: beige;
+        width: 200px;
+        height: 200px;
+        background-color: darkcyan;
+    }
+    .cr13 {
+        color: beige;
+        width: 200px;
+        height: 200px;
+        background-color: darkorchid;
+    }
+    .cr14 {
+        color: beige;
+        width: 200px;
+        height: 200px;
+        background-color: red;
+    }
